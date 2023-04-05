@@ -23,5 +23,10 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+n1=int(input("enter a number:"))
+list=n1.split()
+if n1==-1:
+    print("the largest number is", max(list))
 
 
+print("the largest number is", max(list))
